@@ -11,7 +11,7 @@
       <span class="send-heading" translate>Recipient</span>
       <ion-item class="search-wrapper">
         <ion-icon item-start class="bitcoin-icon" name="search-btc"></ion-icon>
-        <ion-input placeholder="{{'Search or enter bitcoin address' | translate}}" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-input>
+        <ion-input placeholder="{{'Search or enter zcoin address' | translate}}" [(ngModel)]="search" (ngModelChange)="findContact(search)"></ion-input>
         <ion-icon item-end class="scan-icon" (click)="openScanner()">
           <img src="assets/img/scan-ico.svg">
         </ion-icon>
@@ -37,8 +37,8 @@
 
     <div class="card" *ngIf="walletBtcList && walletBtcList[0]">
       <ion-item-divider class="title">
-        <img src="assets/img/icon-bitcoin.svg" alt="Bitcoin Wallets" width="16" />
-        <span translate>Transfer to Bitcoin Wallet</span>
+        <img src="assets/img/icon-zcoin.svg" alt="Zcoin Wallets" width="16" />
+        <span translate>Transfer to Zcoin Wallet</span>
       </ion-item-divider>
 
       <ion-list>
@@ -88,6 +88,6 @@
     </div>
   </div>
   <div *ngIf="!hasBtcWallets && !hasBchWallets" class="no-wallet-message">
-    <span translate>To get started, you'll need to create a bitcoin wallet and get some bitcoin.</span>
+    <span translate>To get started, you'll need to create a zcoin wallet and get some bitcoin.</span>
   </div>
 </ion-content>

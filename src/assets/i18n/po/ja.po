@@ -89,7 +89,7 @@ msgstr "上級者向け"
 msgid "All addresses"
 msgstr ""
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your zcoin wallet balance may not be available for immediate spending."
 msgstr "ビットコインのウォレットの残高の内、即座に送れないビットコインが含まれている可能性があります。"
 
 msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
@@ -199,7 +199,7 @@ msgstr "ビットコインキャッシュウォレット"
 msgid "Bitcoin Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr "ビットコインウォレット"
 
 msgid "Bitcoin cash Payment"
@@ -469,7 +469,7 @@ msgstr "ウォレットが更新できませんでした。"
 msgid "Create a new wallet"
 msgstr ""
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr "ビットコインウォレット作成"
 
 msgid "Create personal wallet"
@@ -571,7 +571,7 @@ msgstr ""
 msgid "Duplicating wallet..."
 msgstr "ウォレットを複製しています..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each zcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 msgid "Economy"
@@ -1830,7 +1830,7 @@ msgstr "履歴"
 msgid "To"
 msgstr "宛先"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr "はじめに、ビットコインウォレットを作成し、ビットコインを入手する必要があります。"
 
 msgid "Top up in progress..."
@@ -1884,7 +1884,7 @@ msgstr "手数料なしの取引はサポートされていません。"
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2169,10 +2169,10 @@ msgstr "BitPayカードの準備が整いました。入金して全世界のお
 msgid "Your Gift Cards"
 msgstr "ギフトカード"
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr "ビットコインウォレットがバックアップされました!"
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr "ビットコインウォレットが完成しました!"
 
 msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
@@ -2214,7 +2214,7 @@ msgstr ""
 msgid "preparing..."
 msgstr "準備中..."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.zcoin.io (Zpay's public BWS instance)."
 msgstr ""
 
 msgid "{{btx.feeRateStr}} of the total amount"

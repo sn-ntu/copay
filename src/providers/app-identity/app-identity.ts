@@ -4,8 +4,8 @@ import { Logger } from '../../providers/logger/logger';
 // providers
 import { PersistenceProvider } from '../persistence/persistence';
 
-import * as zauthService from 'zauth';
 import * as _ from 'lodash';
+import * as zauthService from 'zauth';
 
 @Injectable()
 export class AppIdentityProvider {

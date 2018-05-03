@@ -24,7 +24,7 @@
       <div class="title" padding>
         <span *ngIf="tx.type == 'BUY'">Bought</span>
         <span *ngIf="tx.type == 'SELL'">Sold</span>
-        <b>{{tx.qty}}</b> BTC
+        <b>{{tx.qty}}</b> XZC
       </div>
       <div class="price">
         {{tx.subtotal|currency:'':2}} {{tx.currency}}
@@ -58,7 +58,7 @@
         <span>Exchange rate</span>
       </ion-label>
       <ion-note item-end>
-        {{tx.price|currency:'':2}} {{tx.currency}}/BTC
+        {{tx.price|currency:'':2}} {{tx.currency}}/XZC
       </ion-note>
     </ion-item>
 

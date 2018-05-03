@@ -5,7 +5,7 @@ To save for vacations or joint purchases with friends
 To track family spending and allowances
 To manage business, club, or organization funds and expenses
 
-We built the following features into this version of Copay for a bitcoin wallet that doesn't compromise on security or accessibility:
+We built the following features into this version of Copay for a zcoin wallet that doesn't compromise on security or accessibility:
 
 Multiple wallet creation and management in-app 
 Intuitive multisignature security for personal or shared wallets

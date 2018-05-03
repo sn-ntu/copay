@@ -89,7 +89,7 @@ msgstr "進階"
 msgid "All addresses"
 msgstr "所有地址"
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your zcoin wallet balance may not be available for immediate spending."
 msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
 
 msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
@@ -197,7 +197,7 @@ msgstr "比特币现金钱包"
 msgid "Bitcoin Network Fee Policy"
 msgstr "比特币网络手续费策略"
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr "比特币钱包"
 
 msgid "Bitcoin cash Payment"
@@ -467,7 +467,7 @@ msgstr "无法更新钱包"
 msgid "Create a new wallet"
 msgstr ""
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr "创建比特币的钱包"
 
 msgid "Create personal wallet"
@@ -569,7 +569,7 @@ msgstr ""
 msgid "Duplicating wallet..."
 msgstr "正在复制钱包……"
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each zcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 msgid "Economy"
@@ -1826,7 +1826,7 @@ msgstr "时间轴"
 msgid "To"
 msgstr "发送到"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
 
 msgid "Top up in progress..."
@@ -1880,7 +1880,7 @@ msgstr "不支持无率交易"
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2165,10 +2165,10 @@ msgstr "您的 BitPay 卡是准备好了。添加到您的卡开始使用它在�
 msgid "Your Gift Cards"
 msgstr "礼品卡"
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr "你的比特币钱包被备份 ！"
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr "你的比特币钱包是准备好了 ！"
 
 msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
@@ -2210,7 +2210,7 @@ msgstr ""
 msgid "preparing..."
 msgstr "准备中..."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.zcoin.io (Zpay's public BWS instance)."
 msgstr ""
 
 msgid "{{btx.feeRateStr}} of the total amount"

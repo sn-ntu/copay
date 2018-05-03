@@ -11,7 +11,7 @@ var nw = new NwBuilder({
     'CFBundleURLTypes': [
       {
         'CFBundleURLName': 'URI Handler',
-        'CFBundleURLSchemes': ['bitcoin', 'bitcoincash', '*PACKAGENAME*']
+        'CFBundleURLSchemes': ['zcoin', 'bitcoincash', '*PACKAGENAME*']
       }
     ]
   }

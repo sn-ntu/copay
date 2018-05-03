@@ -190,9 +190,9 @@ export class SellCoinbasePage {
 
   private checkTransaction = _.throttle((count: number, txp: any) => {
     this.logger.warn('Check if transaction has been received by Coinbase. Try ' + count + '/5');
-    // TX amount in BTC
+    // TX amount in XZC
     let satToBtc = 1 / 100000000;
-    let amountBTC = (txp.amount * satToBtc).toFixed(8);
+    let amountXZC = (txp.amount * satToBtc).toFixed(8);
     this.coinbaseProvider.init((err: any, res: any) => {
       if (err) {
         this.logger.error(err);
@@ -223,7 +223,7 @@ export class SellCoinbasePage {
           let ctx;
           for (let i = 0; i < coinbaseTransactions.length; i++) {
             ctx = coinbaseTransactions[i];
-            if (ctx.type == 'send' && ctx.from && ctx.amount.amount == amountBTC) {
+            if (ctx.type == 'send' && ctx.from && ctx.amount.amount == amountXZC) {
               this.logger.warn('Transaction found!', ctx);
               txFound = true;
               this.logger.debug('Saving transaction to process later...');

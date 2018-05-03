@@ -157,7 +157,7 @@ export class AmountPage {
     this.availableUnits.push({
       name: 'Bitcoin',
       id: 'btc',
-      shortName: 'BTC',
+      shortName: 'XZC',
     });
 
     this.availableUnits.push({
@@ -356,13 +356,16 @@ export class AmountPage {
 
         let a = this.fromFiat(result);
         if (a) {
+          a = a / 0.00476896; // FIXME: fake rate from btc to xzc
           this.alternativeAmount = this.txFormatProvider.formatAmount(a * this.unitToSatoshi, true);
         } else {
           this.alternativeAmount = result ? 'N/A' : null;
           this.allowSend = false;
         }
       } else {
-        this.alternativeAmount = this.filterProvider.formatFiatAmount(this.toFiat(result));
+        let v = this.toFiat(result);
+        v = v * 0.00476896; // FIXME: fake rate from xzc to btc
+        this.alternativeAmount = this.filterProvider.formatFiatAmount(v);
       }
     }
   }
@@ -456,7 +459,7 @@ export class AmountPage {
     if (this.unitIndex >= this.availableUnits.length) this.unitIndex = 0;
 
     if (this.availableUnits[this.unitIndex].isFiat) {
-      // Always return to BTC... TODO?
+      // Always return to XZC... TODO?
       this.altUnitIndex = 0;
     } else {
       this.altUnitIndex = _.findIndex(this.availableUnits, {

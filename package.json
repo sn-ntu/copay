@@ -3,7 +3,7 @@
   "//":"        Modify it in the app-template directory", 
 
   "name": "copay",
-  "description": "A Secure Bitcoin Wallet",
+  "description": "A Secure Zcoin Wallet",
   "author": "BitPay",
   "version": "4.2.0",
   "keywords": [
@@ -17,7 +17,7 @@
   "main": "www/index.html",
   "title": "Copay",
   "window": {
-    "title": "Copay - Copay Bitcoin Wallet",
+    "title": "Copay - Copay Zcoin Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,

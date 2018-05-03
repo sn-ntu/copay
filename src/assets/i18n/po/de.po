@@ -89,7 +89,7 @@ msgstr "Erweitert"
 msgid "All addresses"
 msgstr "Alle Adressen"
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your zcoin wallet balance may not be available for immediate spending."
 msgstr "Möglicherweise kann nicht ihr gesamtes Bitcoin Guthaben sofort ausgegeben werden."
 
 msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
@@ -197,7 +197,7 @@ msgstr "Bitcoin Cash Wallet"
 msgid "Bitcoin Network Fee Policy"
 msgstr "Bitcoin-Netzwerk Gebührenübersicht"
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr "Bitcoin-Wallet"
 
 msgid "Bitcoin cash Payment"
@@ -467,7 +467,7 @@ msgstr "Wallet konnte nicht aktualisiert werden"
 msgid "Create a new wallet"
 msgstr "Neues Wallet erstellen"
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr "Erstelle Bitcoin-Wallet"
 
 msgid "Create personal wallet"
@@ -569,7 +569,7 @@ msgstr "Duplizieren"
 msgid "Duplicating wallet..."
 msgstr "Das Wallet wird dubliziert..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each zcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr "Jede Bitcoin-Wallet kann Milliarden von Adressen aus Ihrem 12-Wort Backup erzeugen. Jedesmal wenn Sie eine Zahlung erhalten wird neue Adresse automatisch generiert und dargestellten."
 
 msgid "Economy"
@@ -1826,7 +1826,7 @@ msgstr "Zeitachse"
 msgid "To"
 msgstr "An"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr "Um loszulegen müssen Sie eine Bitcoin-Wallet erstellen und einige Bitcoins erhalten."
 
 msgid "Top up in progress..."
@@ -1880,8 +1880,8 @@ msgstr "Es werden keine Transaktionen ohne Gebühren unterstützt."
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr "Übertragung zur Bitcoin Cash Wallet"
 
-msgid "Transfer to Bitcoin Wallet"
-msgstr "Übertragung zur Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
+msgstr "Übertragung zur Zcoin Wallet"
 
 msgid "Transfer to Contact"
 msgstr "Transfer zum Kontakt"
@@ -2165,10 +2165,10 @@ msgstr "Ihre Bitcoin Card ist bereit, fügen sie Guthaben hinzu um sie in Läden
 msgid "Your Gift Cards"
 msgstr "Ihre Gutscheinkarten"
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr "Ihre Bitcoin-Wallet wurde gesichert!"
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr "Ihre Bitcoin-Wallet ist fertig!"
 
 msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
@@ -2210,8 +2210,8 @@ msgstr "passwort stimmt nicht überein"
 msgid "preparing..."
 msgstr "in Arbeit..."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf https://bws.bitpay.com (BitPays öffentlicher BWS Instanz)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.zcoin.io (Zpay's public BWS instance)."
+msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf https://bws.zcoin.io (BitPays öffentlicher BWS Instanz)."
 
 msgid "{{btx.feeRateStr}} of the total amount"
 msgstr "{{btx.feeRateStr}} des Gesamtbetrages"

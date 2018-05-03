@@ -89,7 +89,7 @@ msgstr "Дополнительные возможности"
 msgid "All addresses"
 msgstr "Все адреса"
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your zcoin wallet balance may not be available for immediate spending."
 msgstr "В данный момент весь баланс вашего кошелька может быть недоступен для совершения платежей."
 
 msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
@@ -197,7 +197,7 @@ msgstr "Кошельки Bitcoin Cash"
 msgid "Bitcoin Network Fee Policy"
 msgstr "Политика комиссии сети Биткойн"
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr "Bitcoin Кошельки"
 
 msgid "Bitcoin cash Payment"
@@ -467,7 +467,7 @@ msgstr "Не удалось обновить кошелёк"
 msgid "Create a new wallet"
 msgstr "Создать новый кошелек"
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr "Создать биткойн-кошелёк"
 
 msgid "Create personal wallet"
@@ -569,7 +569,7 @@ msgstr "Дублировать"
 msgid "Duplicating wallet..."
 msgstr "Дублирование кошелька..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each zcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 msgid "Economy"
@@ -1826,7 +1826,7 @@ msgstr "Хронология"
 msgid "To"
 msgstr "Кому"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr "Чтобы начать работу, вам нужно создать кошелёк и получить биткойн."
 
 msgid "Top up in progress..."
@@ -1880,7 +1880,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2165,10 +2165,10 @@ msgstr ""
 msgid "Your Gift Cards"
 msgstr "Мои подарочные карты"
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr "Резервная копия кошелька создана!"
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr "Ваш кошелёк готов!"
 
 msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
@@ -2210,7 +2210,7 @@ msgstr ""
 msgid "preparing..."
 msgstr "Подготавливается..."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.zcoin.io (Zpay's public BWS instance)."
 msgstr ""
 
 msgid "{{btx.feeRateStr}} of the total amount"

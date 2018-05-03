@@ -51,7 +51,7 @@
       <img src="assets/img/icon-warning.png" width="20">
       <ion-note>
         <span translate>
-          This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself.
+          This transaction amount is too small compared to current Zcoin network fees. Spending these funds will need a Zcoin network fee cost comparable to the funds itself.
         </span>
       </ion-note>
       <a (click)="readMore()" translate>Learn more</a>
@@ -75,7 +75,7 @@
     <ion-item *ngIf="btx.action === 'sent'" class="container-to">
       <span translate>To</span>
       <div class="payment-to">
-        <img class="icon-bitcoin" *ngIf="!cardId" src="assets/img/icon-bitcoin-small.svg">
+        <img class="icon-bitcoin" *ngIf="!cardId" src="assets/img/icon-zcoin-small.svg">
         <img class="icon-bitcoin" *ngIf="cardId" src="assets/img/icon-card.svg" width="34">
         <div class="ellipsis" copy-to-clipboard="{{ btx.addressTo ? btx.addressTo : btx.outputs[0].address }}">
           <span *ngIf="!contactName && !btx.addressTo">{{ btx.outputs[0].address }}</span>

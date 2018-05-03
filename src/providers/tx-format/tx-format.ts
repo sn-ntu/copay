@@ -55,7 +55,8 @@ export class TxFormatProvider {
 
   public formatAmountStr(coin: string, satoshis: number): string {
     if (isNaN(satoshis)) return;
-    return (this.formatAmount(satoshis) + ' ' + coin.toUpperCase());
+    // return (this.formatAmount(satoshis) + ' ' + coin.toUpperCase());
+    return (this.formatAmount(satoshis) + ' XZC');
   }
 
   public toFiat(coin: string, satoshis: number, code: string): Promise<any> {
@@ -86,6 +87,10 @@ export class TxFormatProvider {
 
     let val = (() => {
       var v1 = parseFloat((this.rate.toFiat(satoshis, settings.alternativeIsoCode, coin)).toFixed(2));
+      if (coin == 'btc') {
+        // FIXME: convert to 'btc'
+        v1 = v1 * 0.00476896;
+      }
       v1 = this.filter.formatFiatAmount(v1);
       if (!v1) return null;
 

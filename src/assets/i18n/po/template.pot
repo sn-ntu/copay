@@ -88,7 +88,7 @@ msgid "All addresses"
 msgstr ""
 
 msgid ""
-"All of your bitcoin wallet balance may not be available for immediate "
+"All of your zcoin wallet balance may not be available for immediate "
 "spending."
 msgstr ""
 
@@ -208,7 +208,7 @@ msgstr ""
 msgid "Bitcoin Network Fee Policy"
 msgstr ""
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr ""
 
 msgid "Bitcoin cash Payment"
@@ -480,7 +480,7 @@ msgstr ""
 msgid "Create a new wallet"
 msgstr ""
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr ""
 
 msgid "Create personal wallet"
@@ -585,7 +585,7 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 msgid ""
-"Each bitcoin wallet can generate billions of addresses from your 12-word "
+"Each zcoin wallet can generate billions of addresses from your 12-word "
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 msgstr ""
@@ -1931,7 +1931,7 @@ msgstr ""
 msgid "To"
 msgstr ""
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr ""
 
 msgid "Top up in progress..."
@@ -1987,7 +1987,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2299,10 +2299,10 @@ msgstr ""
 msgid "Your Gift Cards"
 msgstr ""
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr ""
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr ""
 
 msgid ""
@@ -2355,7 +2355,7 @@ msgstr ""
 msgid ""
 "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain "
 "information, networking and Copayer synchronization. The default "
-"configuration points to https://bws.bitpay.com (BitPay's public BWS "
+"configuration points to https://bws.zcoin.io (BitPay's public BWS "
 "instance)."
 msgstr ""
 

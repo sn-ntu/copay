@@ -89,7 +89,7 @@ msgstr "Avançado"
 msgid "All addresses"
 msgstr "Todos os endereços"
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your zcoin wallet balance may not be available for immediate spending."
 msgstr "Todos os seus bitcoins na carteira poderão não estar disponíveis de imediato para gastar."
 
 msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
@@ -197,7 +197,7 @@ msgstr "Carteiras Bitcoin Cash"
 msgid "Bitcoin Network Fee Policy"
 msgstr "Política de taxa de rede Bitcoin"
 
-msgid "Bitcoin Wallets"
+msgid "Zcoin Wallets"
 msgstr "Carteiras Bitcoin"
 
 msgid "Bitcoin cash Payment"
@@ -467,7 +467,7 @@ msgstr "Não foi possível atualizar a carteira"
 msgid "Create a new wallet"
 msgstr "Criar uma nova carteira"
 
-msgid "Create bitcoin wallet"
+msgid "Create zcoin wallet"
 msgstr "Criar carteira bitcoin"
 
 msgid "Create personal wallet"
@@ -569,7 +569,7 @@ msgstr "Duplicar"
 msgid "Duplicating wallet..."
 msgstr "Duplicando carteira..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each zcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr "Cada carteira Bitcoin pode gerar bilhões de endereços através do seu backup de 12 palavras. Um novo endereço é gerado automaticamente e mostrado cada vez que receber um pagamento."
 
 msgid "Economy"
@@ -1826,7 +1826,7 @@ msgstr "Cronograma"
 msgid "To"
 msgstr "Para"
 
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a zcoin wallet and get some bitcoin."
 msgstr "Para começar, você precisa criar uma carteira de bitcoins e obter alguns bitcoins."
 
 msgid "Top up in progress..."
@@ -1880,7 +1880,7 @@ msgstr "Transações sem taxa não são suportadas."
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr "Transferir para Carteira Bitcoin Cash"
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Zcoin Wallet"
 msgstr "Transferir para Carteira Bitcoin"
 
 msgid "Transfer to Contact"
@@ -2165,10 +2165,10 @@ msgstr "Seu BitPay Card está pronto. Adicione fundos ao seu cartão para começ
 msgid "Your Gift Cards"
 msgstr "Seus Vales-Presente"
 
-msgid "Your bitcoin wallet is backed up!"
+msgid "Your zcoin wallet is backed up!"
 msgstr "O backup de sua carteira de bitcoins está feito!"
 
-msgid "Your bitcoin wallet is ready!"
+msgid "Your zcoin wallet is ready!"
 msgstr "Sua carteira de bitcoins está pronta!"
 
 msgid "Your extended private keys are all that is needed to access your bitcoin funds. Be sure to protect your private keys and store them only on secure devices. BitPay does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
@@ -2210,8 +2210,8 @@ msgstr "senha errada"
 msgid "preparing..."
 msgstr "a preparar..."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} depende do Serviço Bitcore Wallet (BWS) para informações do blockchain, rede e sincronização Copayer. A configuração padrão aponta para https://bws.bitpay.com (instância pública BWS do BitPay)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.zcoin.io (Zpay's public BWS instance)."
+msgstr "{{appName}} depende do Serviço Bitcore Wallet (BWS) para informações do blockchain, rede e sincronização Copayer. A configuração padrão aponta para https://bws.zcoin.io (instância pública BWS do BitPay)."
 
 msgid "{{btx.feeRateStr}} of the total amount"
 msgstr "{{btx.feeRateStr}} do valor total"

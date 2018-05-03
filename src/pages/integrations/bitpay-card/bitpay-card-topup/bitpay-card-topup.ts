@@ -346,7 +346,7 @@ export class BitPayCardTopUpPage {
             buyerSelectedTransactionCurrency: wallet.coin.toUpperCase()
           }).then((inv) => {
 
-            // Check if BTC or BCH is enabled in this account
+            // Check if XZC or BCH is enabled in this account
             if (!this.isCryptoCurrencySupported(wallet, inv)) {
               let msg = this.translate.instant('Top-up with this cryptocurrency is not enabled');
               this.showErrorAndBack(null, msg);
@@ -397,7 +397,7 @@ export class BitPayCardTopUpPage {
     this.onGoingProcessProvider.set('loadingTxInfo');
     this.createInvoice(dataSrc).then((invoice) => {
 
-      // Check if BTC or BCH is enabled in this account
+      // Check if XZC or BCH is enabled in this account
       if (!this.isCryptoCurrencySupported(wallet, invoice)) {
         let msg = this.translate.instant('Top-up with this cryptocurrency is not enabled');
         this.showErrorAndBack(null, msg);

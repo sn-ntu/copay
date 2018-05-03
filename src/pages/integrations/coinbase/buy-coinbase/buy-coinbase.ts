@@ -299,7 +299,7 @@ export class BuyCoinbasePage {
     this.wallet = wallet;
     let parsedAmount = this.txFormatProvider.parseAmount(this.coin, this.amount, this.currency);
 
-    // Buy always in BTC
+    // Buy always in XZC
     this.amount = (parsedAmount.amountSat / 100000000).toFixed(8);
     this.currency = 'BTC';
 

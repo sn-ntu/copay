@@ -48,7 +48,7 @@
         </ion-icon>
         <ion-label>Buy Bitcoin</ion-label>
         <ion-note *ngIf="account.price && account.price.buy" item-end>
-          ${{account.price.buy}}/BTC
+          ${{account.price.buy}}/XZC
         </ion-note>
       </button>
       <button ion-item *ngIf="account.status.userCanSell" (click)="goToSellGlideraPage()">
@@ -57,7 +57,7 @@
         </ion-icon>
         <ion-label>Sell Bitcoin</ion-label>
         <ion-note *ngIf="account.price && account.price.sell" item-end>
-          ${{account.price.sell}}/BTC
+          ${{account.price.sell}}/XZC
         </ion-note>
       </button>
       <ion-item-divider>Activity</ion-item-divider>
@@ -71,7 +71,7 @@
           </ion-icon>
           <span *ngIf="tx.type == 'BUY'">Bought</span>
           <span *ngIf="tx.type == 'SELL'">Sold</span>
-          <b>{{tx.qty}}</b> BTC
+          <b>{{tx.qty}}</b> XZC
           <div class="amount">{{tx.subtotal|currency:'':2}} {{tx.currency}}</div>
           <ion-note class="details" item-end text-end>
             <div *ngIf="tx.status == 'COMPLETE' && tx.transactionDate">

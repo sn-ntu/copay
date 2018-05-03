@@ -20,7 +20,7 @@ import { WalletProvider } from "../../../providers/wallet/wallet";
   templateUrl: 'bitcoin-cash.html',
 })
 export class BitcoinCashPage {
-  private walletsBTC: any[];
+  private walletsXZC: any[];
   private walletsBCH: any[];
   private errors: any;
 
@@ -43,7 +43,7 @@ export class BitcoinCashPage {
     private translate: TranslateService,
     private events: Events
   ) {
-    this.walletsBTC = [];
+    this.walletsXZC = [];
     this.walletsBCH = [];
     this.availableWallets = [];
     this.nonEligibleWallets = [];
@@ -52,7 +52,7 @@ export class BitcoinCashPage {
 
   ionViewWillEnter() {
 
-    this.walletsBTC = this.profileProvider.getWallets({
+    this.walletsXZC = this.profileProvider.getWallets({
       coin: 'btc',
       onlyComplete: true,
       network: 'livenet'
@@ -66,11 +66,11 @@ export class BitcoinCashPage {
 
     let xPubKeyIndex = lodash.keyBy(this.walletsBCH, "credentials.xPubKey");
 
-    this.walletsBTC = lodash.filter(this.walletsBTC, w => {
+    this.walletsXZC = lodash.filter(this.walletsXZC, w => {
       return !xPubKeyIndex[w.credentials.xPubKey];
     });
 
-    lodash.each(this.walletsBTC, (w) => {
+    lodash.each(this.walletsXZC, (w) => {
       if (w.credentials.derivationStrategy != 'BIP44') {
         w.excludeReason = this.translate.instant('Non BIP44 wallet');
         this.nonEligibleWallets.push(w);
